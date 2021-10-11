@@ -11,11 +11,11 @@ import ReactNative from '../../assets/react-native.png'
 
 export default function SkillSet() {
     return (
-        <div className='background container-fluid'>
+        <div className='background container'>
         
     <h1 className="display-4 text-white">My Skillset </h1>
 
-<div className="scrollmenu container-fluid">
+<div className="scrollmenu container">
   
   <span  className='card'><img className="img-fluid" src={Html} alt='Html 5' width='85%'  /></span>
   <span  className='card'><img className="img-fluid" src={Css} alt='Html 5' width='90%' /></span>

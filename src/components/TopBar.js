@@ -11,7 +11,7 @@ export default function topBar() {
   <Navbar bg="light" expand="lg">
   
   <Nav  defaultActiveKey="/">
-      <div className="container-fluid">
+      <div >
           
           <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
               <span className="navbar-toggler-icon"></span>
@@ -43,7 +43,7 @@ export default function topBar() {
     </Nav.Link>
   </Nav.Item>
   <Nav.Item   className='bgColor'>
-    <Nav.Link eventKey="link-5" >
+    <Nav.Link eventKey="link-5" href='https://github.com/faisal8373' target="_blank">
       Github
     </Nav.Link>
   </Nav.Item>
