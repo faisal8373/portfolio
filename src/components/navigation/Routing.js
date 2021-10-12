@@ -6,6 +6,7 @@ import SkillSet from '../skillset/SkillSet';
 import Home from '../home/Home';
 import TopBar from '../TopBar';
 import Footer from '../footer/Footer';
+import Projects from '../projects/Projects';
 
 export default function Routing() {
     return (
@@ -18,6 +19,9 @@ export default function Routing() {
           </Route>
           <Route path="/aboutMe">
             <AboutMe />
+          </Route>
+          <Route path="/projects">
+            <Projects />
           </Route>
           <Route path="/contactMe">
             <ContactMe />
