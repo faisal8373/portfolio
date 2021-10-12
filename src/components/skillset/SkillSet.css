@@ -34,13 +34,13 @@ div.scrollmenu {
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgb(62, 59, 223); 
+    background: rgb(169, 168, 223); 
     border-radius: 10px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgb(62, 59, 223); 
+    background: rgb(136, 136, 150); 
   }
   .background{
     background: rgb(115, 113, 207);

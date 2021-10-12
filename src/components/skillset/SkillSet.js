@@ -24,7 +24,7 @@ export default function SkillSet() {
   <span  className='card'><img className='img-fluid' src={Git} alt='Html 5' width='75%' /></span>
   <span  className='card'><img className='img-fluid' src={ReactImg} alt='Html 5' width='85%' /></span>
   <span  className='card'><img className='img-fluid' src={ReduxImg} alt='Html 5' width='85%' /></span>  
-  <span  className='card'><img className='img-fluid' src={ReactNative} alt='Html 5' width='85%' /></span>
+  {/* <span  className='card'><img className='img-fluid' src={ReactNative} alt='Html 5' width='85%' /></span> */}
  
 </div>
 
