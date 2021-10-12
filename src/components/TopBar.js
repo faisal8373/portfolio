@@ -1,5 +1,6 @@
 import React from 'react'
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import '../App.css'
 export default function topBar() {
     return (
@@ -22,29 +23,34 @@ export default function topBar() {
               <div className="navbar-nav">
               
               <Nav.Item   className='bgColor' >
-    <Nav.Link href="/">Home</Nav.Link>
+     <Nav.Link href="/"><Link to='/' >Home</Link></Nav.Link> 
+    
   </Nav.Item>
   <Nav.Item   className='bgColor'>
-    <Nav.Link href="/aboutMe" eventKey="link-1">About Me</Nav.Link>
+     <Nav.Link href="/aboutMe" eventKey="link-1"><Link to='/aboutMe' >About Me</Link></Nav.Link> 
+    
   </Nav.Item>
   <Nav.Item   className='bgColor'>
-    <Nav.Link href="/projects" eventKey="link-2" >
-      Projects
-    </Nav.Link>
+     <Nav.Link href="/projects" eventKey="link-2" >
+      <Link to='/projects' >Projects</Link>
+    </Nav.Link> 
+    
   </Nav.Item>
   <Nav.Item  className='bgColor'>
     <Nav.Link href="/skillSet" eventKey="link-3" >
-      Skillset
-    </Nav.Link>
+      <Link to='/skillSet' >Skillset</Link>
+    </Nav.Link> 
+
   </Nav.Item>
   <Nav.Item  className='bgColor'>
+   
     <Nav.Link href="/contactMe" eventKey="link-4" >
-      Contact Me
+    <Link to='/contactMe' >Contact Me</Link>
     </Nav.Link>
   </Nav.Item>
-  <Nav.Item   className='bgColor'>
-    <Nav.Link eventKey="link-5" href='https://github.com/faisal8373' target="_blank">
-      Github
+  <Nav.Item   className='bgColor '>
+    <Nav.Link className='text-primary' eventKey="link-5" href='https://github.com/faisal8373' target="_blank" >
+      Github 
     </Nav.Link>
   </Nav.Item>
                   {/* <a href="#" className="nav-item nav-link active">Home</a>
